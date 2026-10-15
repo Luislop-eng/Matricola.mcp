@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "matricola": {
+      "command": "uv",
+      "args": ["--directory", "/percorso/di/matricola-mcp", "run", "server.py"],
+      "env": {
+        "CMMS_DB_URL": "sqlite:////percorso/di/cmms.db",
+        "MATRICOLA_REPORT_DIR": "/percorso/della/cartella/SIC/Report",
+        "MATRICOLA_ROOTS": "/percorso/della/cartella/SIC",
+        "MATRICOLA_AUDIT_LOG": "/percorso/di/audit.jsonl"
+      }
+    }
+  }
+}

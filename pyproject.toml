@@ -1,0 +1,13 @@
+[project]
+name = "matricola-mcp"
+version = "1.0.0"
+description = "Server Model Context Protocol per il Servizio di Ingegneria Clinica (caso di studio)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Luigi Loperfido" }]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.30,<2",
+    "sqlalchemy>=2.0",
+    "pypdf>=4.0",
+]
