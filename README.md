@@ -66,8 +66,8 @@ Il documento di progetto completo, con architettura, scelte tecniche, rischi e u
 Requisiti: Python 3.10 o successivo e, consigliato, [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/Luislop-eng/Matricola---Model-Context-Protocol-Case-Study.git
-cd Matricola---Model-Context-Protocol-Case-Study
+git clone https://github.com/Luislop-eng/Matricola.mcp.git
+cd Matricola.mcp
 uv sync                      # oppure: pip install -r requirements.txt
 ```
 
@@ -145,7 +145,7 @@ Con la libreria utilizzata, la perdita delle notifiche dipende dall'opzione `jso
 ## 8. Struttura del repository
 
 ```
-Matricola---Model-Context-Protocol-Case-Study/
+Matricola.mcp/
 ├── server.py                    server MCP
 ├── test_e2e.py                  test end-to-end in memoria
 ├── test_http.py                 test sul trasporto HTTP
